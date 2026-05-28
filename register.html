@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Nexus AI - Kayıt</title>
+    <style>
+        body { background: #0b0d11; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .box { background: #13171f; padding: 30px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); width: 300px; text-align: center; }
+        input { width: 100%; padding: 10px; margin: 10px 0; background: #161b24; border: 1px solid rgba(255,255,255,0.1); color: white; border-radius: 6px; box-sizing: border-box; }
+        button { width: 100%; padding: 12px; background: #ffb100; border: none; color: black; font-weight: bold; border-radius: 6px; cursor: pointer; }
+        a { color: #9ca3af; text-decoration: none; font-size: 13px; display: block; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Nexus AI Register</h2>
+        <form method="POST">
+            <input type="email" name="eposta" placeholder="E-posta Adresi" required>
+            <input type="password" name="sifre" placeholder="Şifre" required>
+            <button type="submit">Kayıt Ol ➔</button>
+        </form>
+        <a href="/giris">Zaten hesabın var mı? Giriş Yap</a>
+    </div>
+</body>
+</html>
